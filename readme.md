@@ -88,12 +88,15 @@ Gives insight into true vs. predicted classifications.
 
 ## Challenges:
 Similar symptoms between diseases
+
 Variability in farmer descriptions
 
-Future work:
+## Future work:
 Expand dataset
 Use transfer learning (e.g., EfficientNet)
+
 Multilingual NLP models
+
 Integration with real-time advisory systems
 
 ---
