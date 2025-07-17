@@ -101,8 +101,45 @@ Integration with real-time advisory systems
 
 ---
 
-##  How to Run
+## How to Run
 
-1. Clone the repository:
+### Prerequisites
+Ensure you have Python 3.8+ installed on your system.
 
-https://github.com/DianaMayalo/Crop-Disease-Detection
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/DianaMayalo/Crop-Disease-Detection
+cd Crop-Disease-Detection
+```
+
+### Step 2: Install Required Dependencies
+```bash
+pip install streamlit tensorflow numpy pillow scikit-learn joblib
+```
+
+### Step 3: Verify Required Model Files
+Ensure these files are in your project directory:
+- `cnn_model.keras` (CNN model for image classification)
+- `mnb_nlp_pipeline.pkl` (Multinomial Naive Bayes pipeline for text classification)
+- `pesticide_dict.pkl` (Pesticide recommendation dictionary)
+- `streamlit_app.py` (Main application file)
+
+### Step 4: Launch the Streamlit Application
+```bash
+streamlit run streamlit_app.py
+```
+
+### Step 5: Access the Application
+The application will open in your default web browser at `http://localhost:8501`
+
+### Using the Application
+
+**Image Classification (CNN Tab):**
+1. Click on the "📷 Image Upload (CNN)" tab
+2. Upload a crop leaf image (JPG, PNG, or JPEG format)
+3. The CNN model will predict the disease and provide pesticide recommendations
+
+**Text Description (NLP Tab):**
+1. Click on the "✏️ Text Description (NLP)" tab
+2. Enter a description of crop symptoms (e.g., "yellow spots on leaves")
+3. The NLP model will classify the disease and suggest appropriate treatments
