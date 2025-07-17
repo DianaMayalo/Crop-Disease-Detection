@@ -185,12 +185,6 @@ Several leaf diseases had very similar visual symptoms (e.g., different types of
 
 ---
 
-##  How to Run
-
-1. Clone the repository:
-
-https://github.com/DianaMayalo/Crop-Disease-Detection
-
 ## How to Run
 
 ### Prerequisites
@@ -233,3 +227,21 @@ The application will open in your default web browser at `http://localhost:8501`
 1. Click on the "Text Description (NLP)" tab
 2. Enter a description of crop symptoms (e.g., "yellow spots on leaves")
 3. The NLP model will classify the disease and suggest appropriate treatments
+
+## Project Structure
+```
+Crop-Disease-Detection/
+├── .ipynb_checkpoints/ 
+├── PlantVillage/ 
+├── anaconda_projects/
+├── Crop_Disease_Detection_Presentation.pdf 
+├── cnn_model.keras 
+├── crop.ipynb 
+├── crop.pdf 
+├── crop_description.ipynb 
+├── mnb_nlp_pipeline.pkl
+├── pesticide_dict.pkl
+├── readme.md 
+├── streamlit_app.py
+├── synthetic_data.csv 
+```
