@@ -35,7 +35,7 @@ The dataset used contains high-resolution images of crop leaves, categorized by 
 
 ## Sample Images from the Dataset
 
-Below is a small grid sample of the dataset classes (please replace image links with your hosted versions):
+Below is a small grid sample of the dataset classes:
 
 | Tomato___Healthy | Potato___Late_blight | Pepper__bell___healthy | Tomato__Tomato_mosaic_virus |
 |------------------|----------------------|-------------------------|-----------------------------|
