@@ -198,7 +198,7 @@ cd Crop-Disease-Detection
 
 ### Step 2: Install Required Dependencies
 ```bash
-pip install streamlit tensorflow numpy pillow scikit-learn joblib
+pip install streamlit==1.23.1 tensorflow==2.11.0 numpy==1.23.5 pillow scikit-learn==1.3.2 joblib altair==4.2.2
 ```
 
 ### Step 3: Verify Required Model Files
